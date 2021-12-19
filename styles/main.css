@@ -1,0 +1,323 @@
+* {
+  margin: 0px !important;
+  padding: 0px;
+}
+
+.container {
+  max-width: 1536px;
+  padding: 0px 5%;
+  margin: 0px auto !important;
+}
+
+.navbar__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__brand--img img {
+  width: 135px;
+}
+
+.navbar__links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__links ul li {
+  list-style: none;
+  margin-left: 20px !important;
+}
+
+.navbar__links ul li a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #28235d;
+  text-decoration: none;
+}
+
+.navbar__links ul li button {
+  border-radius: 5px;
+  background-color: #00b67a;
+  padding: 10px 20px;
+  font-weight: 600;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.navbar__links ul li button:hover {
+  cursor: pointer;
+}
+
+.hero {
+  background-image: url(../images/headerimg.jpg);
+  height: 400px;
+  background-position: top;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__content {
+  color: #fff;
+  text-align: center;
+}
+
+.hero__content h2 {
+  margin-top: 20px !important;
+  font-weight: 300;
+}
+
+.hero__content button {
+  margin-top: 20px !important;
+  padding: 10px 40px;
+  border: none;
+  background-color: #00b67a;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.hero__content button:hover {
+  cursor: pointer;
+}
+
+.time {
+  background-color: #eff4fb;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.time__contents {
+  padding: 50px 0px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+}
+
+.time__content {
+  text-align: center;
+  color: #28235d;
+}
+
+.work {
+  padding: 50px 0px;
+}
+
+.work__wrapped {
+  padding: 50px 70px;
+  margin: 0px auto !important;
+  max-width: 50%;
+  text-align: center;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.work__title {
+  color: #28235d;
+  text-align: center;
+}
+
+.work__steps {
+  padding-top: 40px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.work__step {
+  text-align: center;
+}
+
+.work__step h4 {
+  margin-top: 20px !important;
+}
+
+.work__step--icon {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #28235d;
+  border: 1px solid black;
+}
+
+.work__step--icon img {
+  width: 38px;
+}
+
+.work__step__fst {
+  position: relative;
+}
+
+.work__step__fst::after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 2px;
+  width: 108px;
+  top: 48px;
+  left: 87px;
+}
+
+.work__step__fst::before {
+  content: "1";
+  position: absolute;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 50%;
+  left: -6px;
+}
+
+.work__step__snd {
+  position: relative;
+}
+
+.work__step__snd::after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 2px;
+  width: 108px;
+  top: 48px;
+  left: 87px;
+}
+
+.work__step__snd::before {
+  content: "2";
+  position: absolute;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 50%;
+  left: -6px;
+}
+
+.work__step__trd {
+  position: relative;
+}
+
+.work__step__trd::after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 2px;
+  width: 108px;
+  top: 48px;
+  left: 87px;
+}
+
+.work__step__trd::before {
+  content: "3";
+  position: absolute;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 50%;
+  left: -6px;
+}
+
+.work__step__last {
+  position: relative;
+}
+
+.work__step__last::before {
+  content: "4";
+  position: absolute;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 50%;
+  left: -6px;
+}
+
+.work__btn {
+  padding-top: 40px;
+}
+
+.work__btn button {
+  background-color: #00b67a;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  padding: 10px 40px;
+  border-radius: 8px;
+}
+
+.work__btn button:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
